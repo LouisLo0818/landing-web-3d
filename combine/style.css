@@ -1,0 +1,370 @@
+body,
+html {
+  background: #ededed;
+  overflow-x: hidden;
+}
+
+.slogansetting {
+  background: black;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.slogansetting img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slogan {
+  font-family: "Poppins", sans-serif;
+  font-size: calc(2rem + 1vw);
+  font-weight: 700;
+  color: #ededed;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.container-bg {
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  position: relative;
+}
+
+.bg_subtitle {
+  margin-top: 7%;
+  color: #313aaf;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: calc(2rem + 1vw);
+  margin-top: 10%;
+}
+
+.bg_content {
+  color: #313aaf;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 4%;
+  width: 100%;
+  font-size: calc(1.275rem + .3vw);
+  padding: 0 10% 0 10%;
+}
+
+.container-bg-img {
+  height: 30rem;
+  background: linear-gradient(to top, transparent, #ededed),
+    url("./img/Cover.jpg");
+    background-size: cover;
+  left: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  max-width: 100vw;
+  position: relative;
+  right: 50%;
+  width: 100vw;
+}
+
+body {
+  color: #ededed;
+}
+
+.dark {
+  background: #313aaf;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  transition: color 0.1s;
+}
+
+.card.gr {
+  padding: 10%;
+  margin-bottom: 12%;
+  border: none;
+  border-radius: 30px;
+  color: rgba(0, 0, 0, 1);
+  background: hsl(236, 56%, 44%);
+  color: #ededed;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.27);
+  width: 100%;
+}
+
+.card.gr:hover {
+  background: #11187b;
+}
+
+.advantages_title {
+  /*min-height:4rem;*/
+  border-bottom: 0.15rem solid #ededed;
+  font-size: calc(1.75rem + .3vw);
+  font-weight: 700;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.advantages_content {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  color: #ededed;
+  position: relative;
+}
+
+.pj-goal-container {
+  height: auto;
+  width: 100vw;
+  background: #313aaf;
+  margin: 0 auto 0 auto;
+  position: relative;
+}
+
+.container_aboutus {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Top left text */
+.top-left-aboutus {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.aboutus_bg {
+  background-color: #313aaf;
+  margin: 9rem auto 0 auto;
+}
+
+.aboutus_subtitle {
+  margin-bottom: 2rem;
+  font-family: "Poppins";
+  color: #ededed;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  font-weight: bold;
+  font-size: calc(3.5rem + .3vw);
+}
+
+.aboutus_text {
+  font-family: "Poppins", sans-serif;
+  font-size: calc(1.3rem + .3vw);
+  font-weight: 400;
+  font-style: normal;
+  line-height: calc(1em + 1vw);
+  color: #ededed;
+  position: relative;
+}
+
+.aboutus_container {
+  display: block;
+  margin: 15px auto;
+  width: 75%;
+}
+
+.aboutus_bottom {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8vw;
+  font-weight: 600;
+  font-style: normal;
+  line-height: calc(1em + 2vw);
+  background: #ededed;
+  color: #313aaf;
+  position: relative;
+}
+
+.goalcontainer {
+  padding: 10% 10% 10% 10%;
+  justify-content: flex;
+  overflow: hidden;
+  background-color: #313aaf;
+}
+
+.goal {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: calc(2rem + 1vw);
+  color: #ededed;
+  padding: 8% 0 0 10%;
+}
+
+.goalcontent {
+  font-family: "Poppins", sans-serif;
+  font-size: calc(1.25rem + .3vw);
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  color: #ededed;
+  position: relative;
+}
+
+.operation-container {
+  height: auto;
+  margin: 0 auto 0 auto;
+  position: relative;
+}
+
+.operation-heading {
+  margin-top: 5%;
+  color: #313aaf;
+  margin-left: 10%;
+}
+
+.operation-heading h1 {
+  font-size: calc(2.0rem + 1vw);
+}
+
+.operation-swiper {
+  margin-left: 10%;
+  height: auto;
+  width: 80%;
+  margin-top: 11%;
+  user-select: none;
+  background-color: #313aaf;
+}
+
+/*------swiper------*/
+.operation-hardware-container {
+  background-color: #ededed;
+  width: 40%;
+  height: 90%;
+  margin-left: 10%;
+  padding: 0 1.5% 1.5% 1.5%;
+  display: inline-block;
+}
+
+.operation-hardware-img {
+  width: 100%;
+  height: 115%;
+  margin-top: -21.5%;
+  object-fit: cover;
+}
+
+.operation-hardware-content {
+  position: absolute;
+  margin: 4% 0 0 4%;
+  color: #ededed;
+  display: inline-block;
+  width: 35%;
+}
+
+.operation-hardware-content h1 {
+  font-size: calc(2.3rem + .3vw);
+}
+
+.operation-hardware-content h2 {
+  font-size: calc(1.9rem + .1vw);
+}
+
+.operation-hardware-content h3 {
+  font-size: calc(1.2rem + .1vw);
+}
+
+.operation-hardware-content p {
+  font-size: calc(1.2rem + .1vw);
+}
+
+.operation-software-container {
+  background-color: #ededed;
+  width: 40%;
+  height: 90%;
+  margin-left: 50%;
+  padding: 0 1.5% 1.5% 1.5%;
+  display: inline-block;
+}
+
+.operation-software-content {
+  position: absolute;
+  margin: 4% 0 0 10%;
+  color: #ededed;
+  display: inline-block;
+  width: 35%;
+}
+
+.operation-software-content h1 {
+  font-size: calc(2.3rem + .3vw);
+}
+
+.operation-software-content h2 {
+  font-size: calc(1.9rem + .1vw);
+}
+
+.operation-software-content p {
+  font-size: calc(1.2rem + .1vw);
+}
+
+@media only screen and (max-width: 1200px) {
+  .operation-hardware-img {
+    height: 110%;
+    margin-top: -3.5rem;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .operation-swiper {
+    margin-top: 20%;
+  }
+
+  .operation-hardware-content {
+    margin: 6% 0 0 6%;
+  }
+
+  .operation-hardware-content h1 {
+    font-size: 6vw;
+  }
+
+  .operation-hardware-content h2 {
+    font-size: 5vw;
+  }
+
+  .operation-hardware-content h3 {
+    font-size: 4vw;
+  }
+
+  .operation-hardware-content p {
+    font-size: 3vw;
+  }
+
+  .operation-software-content {
+    margin: 6% 0 0 6%;
+  }
+
+  .operation-software-content h1 {
+    font-size: 7vw;
+  }
+
+  .operation-software-content h2 {
+    font-size: 5vw;
+  }
+
+  .operation-software-content p {
+    font-size: 3vw;
+  }
+}
+
+.swiper {
+  height: 40rem;
+  width: 100%;
+  margin-top: 12%;
+  background-color: #313aaf;
+}
+
+.swiper-button-next {
+  padding-right: 5%;
+}
+
+.swiper-button-prev {
+  padding-left: 5%;
+}
+
+.swiper-pagination {
+  margin-bottom: 1.5%;
+}
